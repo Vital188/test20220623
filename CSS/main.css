@@ -1,17 +1,20 @@
 body {font-family: system-ui, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
     sans-serif;
-    margin-top: 50px;
    }
  
 .main {
 display: inline-block;
 width: 1000px;
- margin: 0 calc(50% - 500px) 60px;
+ margin: 0 calc(50% - 500px) 0;
    }
 
 .images {
- width: 40%;
- display: inline-block;
+    width: 110%;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: -50px;
+    margin-bottom: 0;
+    margin-top: 50px;
 }
 
 .logoone {
@@ -33,6 +36,21 @@ width: 1000px;
 }
 
 .title {
-    display: inline-block;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
     text-transform: uppercase;
+    text-align: center;
+    color: red;
+    gap: 100px;
+    margin-left: 20px;
+}
+
+
+.paragraf {
+    width: 105%;
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 50px
 }
