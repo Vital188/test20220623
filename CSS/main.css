@@ -9,12 +9,13 @@ width: 1000px;
    }
 
 .images {
-    width: 110%;
+    width: 140%;
     display: inline-flex;
     flex-direction: row;
-    margin-left: -50px;
+    margin-left: -210px;
     margin-bottom: 0;
     margin-top: 50px;
+    gap: 40px;
 }
 
 .logoone {
@@ -43,14 +44,37 @@ width: 1000px;
     text-align: center;
     color: red;
     gap: 100px;
-    margin-left: 20px;
+    margin-left: -90px;
 }
 
+.two {
+    margin-left: 80px;
+}
+
+.three {
+    margin-left: 50px;
+}
+
+.four {
+    margin-left: 100px;
+}
 
 .paragraf {
-    width: 105%;
+    width: 135%;
     display: inline-flex;
     flex-direction: row;
     text-align: center;
-    gap: 50px
+    gap: 90px;
+    margin-left: -170px;
+}
+
+.pq {
+    margin-right: 10px;
+}
+.pw {
+    margin-left: 0px;
+}
+
+.pe {
+    margin-left: 0px
 }
